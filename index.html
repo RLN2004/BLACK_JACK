@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BLACK JACK</title>
+	<style type="text/css">
+		body{
+			background-color: #34495e;
+		}
+		button{
+			margin-bottom: 25px;
+			background-color: goldenrod;
+			color: white;
+			width: 299px;
+			height: 99px;
+			font-size: 59px;
+			font-family: monospace;
+			font-weight: bolder;
+			border: none;
+			border-radius: 5px;
+
+			line-height: 42px;
+  			padding: 0;
+  			border: none;
+  			background: rgb(255,27,0);
+			background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+		}
+		
+		.all{
+			margin-top: 199px;
+		}
+
+		.petti2{
+			background-color: rgba(0, 0, 0, 0.5);
+			width: 515px;
+			height: 315px;
+			margin-top: 15px;
+			color: white;
+			font-family: monospace;
+			font-weight: bolder;
+			font-size: 15px;
+			border-radius: 9px;
+		}
+
+		hr{
+			border-radius: 5px;
+		}
+
+		@media screen and (max-width: 600px){
+
+			button{
+				width: 199px;
+				height: 49px;
+				font-size: 29px;
+			}
+
+			.all{
+				margin-top: 99px;
+			}
+
+			.petti2{
+				width: 275px;
+				height: 415px;
+			}
+
+		}
+
+	</style>
+</head>
+<center><body>
+
+<div class="all">
+<button onclick="start()">START</button></div>
+
+<div class="petti2">
+<p class="para">
+	<hr>
+	<center>HOW TO PLAY</center> 
+	<hr>
+	<br>
+	1.You will be given with two numbers and their sum will be displayed.<br><br>
+	2.If your sum is equal to 21 then you got the BLACK JACK (you win the game) .<br><br>
+	3.If your sum exceed 21 then the game is over.<br><br>
+	4.If your sum is less than 21 then you can ask for the next number and countinue the game.<br><br>
+	5.The game will be countinued untill the sum reaches 21 or exceeds 21.
+</p>
+</div>
+<script>
+	function start(){
+	window.location.href = "main.html"
+}
+</script>
+</body></center>
+</html>
